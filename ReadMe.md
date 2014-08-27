@@ -97,13 +97,3 @@ View在MVC應用程式中扮演了為應用程式擦脂抹粉的角色，所以�
 
 完整目錄與簡介：基峰[ASP.NET MVC 5 網站開發美學](http://books.gotop.com.tw/a_ACL041300 "ASP.NET MVC 5 網站開發美學")。
 
-### 讀者服務 ###
-
-本書的讀者服務由本書作者群共同負責，由twMVC社群作為主要窗口，讀者若有本書內容與範例程式的任何問題，可以直接聯絡twMVC，或是利用各作者的部落格與各作者取得聯繫。
-
-- demo：http://demo.tc 
-- 小朱：http://www.dotblogs.com.tw/regionbbs/ 
-- Dino：http://dinowang.blogspot.tw/ 
-- Bruce：http://blog.kkbruce.net/ 
-- 91：http://www.dotblogs.com.tw/hatelove/
-
