@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApplication2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="400" Width="600">
+    <Grid>
+        <Grid.ColumnDefinitions>
+        <ColumnDefinition Width="33*"/>
+        <ColumnDefinition Width="72*"/>
+        <ColumnDefinition Width="254*"/>
+        <ColumnDefinition Width="225*"/>
+        </Grid.ColumnDefinitions>
+        <Label Content="URL：" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="InputUrl" Grid.Column="1" HorizontalAlignment="Left" Height="23" Margin="22,14,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="439" Text="http://msdn.microsoft.com/zh-tw, http://www.microsoft.com/zh-tw,http://channel9.msdn.com/,http://technet.microsoft.com/zh-TW/" Grid.ColumnSpan="3"/>
+        <Button x:Name="start" Content="開始" HorizontalAlignment="Left" Margin="140,14,0,0" VerticalAlignment="Top" Width="75" Height="24"  Click="Start_Click" Grid.Column="3"/>
+        <TextBox x:Name="results" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="569" Height="305" FontFamily="Lucida Console" FontSize="10" VerticalScrollBarVisibility="Visible" Grid.ColumnSpan="4" Margin="10,0,0,10"/>
+    </Grid>
+</Window>

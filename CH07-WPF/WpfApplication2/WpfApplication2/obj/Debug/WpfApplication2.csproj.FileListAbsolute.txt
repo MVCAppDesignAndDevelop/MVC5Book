@@ -1,0 +1,16 @@
+E:\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csprojResolveAssemblyReference.cache
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.baml
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\MainWindow.g.cs
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\App.g.cs
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2_MarkupCompile.cache
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.g.resources
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.Properties.Resources.resources
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.csproj.GenerateResource.Cache
+E:\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe
+E:\Projects\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.pdb
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+E:\Projects\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
+Z:\CH07-WPF\WpfApplication2\WpfApplication2\bin\Debug\WpfApplication2.exe.config
+Z:\CH07-WPF\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.exe
+Z:\CH07-WPF\WpfApplication2\WpfApplication2\obj\Debug\WpfApplication2.pdb
