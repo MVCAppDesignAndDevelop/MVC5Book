@@ -1,0 +1,5 @@
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\obj\Debug\NorthwindDbReader.csprojResolveAssemblyReference.cache
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\bin\Debug\NorthwindDbReader.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\bin\Debug\NorthwindDbReader.pdb
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\obj\Debug\NorthwindDbReader.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\NorthwindDbReader\obj\Debug\NorthwindDbReader.pdb

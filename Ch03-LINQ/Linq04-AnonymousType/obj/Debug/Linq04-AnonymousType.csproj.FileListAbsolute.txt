@@ -1,0 +1,5 @@
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq04-AnonymousType\bin\Debug\Linq04-AnonymousType.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq04-AnonymousType\bin\Debug\Linq04-AnonymousType.pdb
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq04-AnonymousType\obj\Debug\Linq04-AnonymousType.csprojResolveAssemblyReference.cache
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq04-AnonymousType\obj\Debug\Linq04-AnonymousType.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq04-AnonymousType\obj\Debug\Linq04-AnonymousType.pdb

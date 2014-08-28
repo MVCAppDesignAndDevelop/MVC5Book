@@ -1,0 +1,5 @@
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq06-DelegateAndLambda\bin\Debug\Linq06-DelegateAndLambda.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq06-DelegateAndLambda\bin\Debug\Linq06-DelegateAndLambda.pdb
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq06-DelegateAndLambda\obj\Debug\Linq06-DelegateAndLambda.csprojResolveAssemblyReference.cache
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq06-DelegateAndLambda\obj\Debug\Linq06-DelegateAndLambda.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq06-DelegateAndLambda\obj\Debug\Linq06-DelegateAndLambda.pdb

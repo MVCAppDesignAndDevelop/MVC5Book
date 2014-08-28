@@ -1,0 +1,12 @@
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EF08-Database Migration.exe.config
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EF08-Database Migration.exe
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EF08-Database Migration.pdb
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EntityFramework.dll
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EntityFramework.SqlServer.dll
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EntityFramework.xml
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\bin\Debug\EntityFramework.SqlServer.xml
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\obj\Debug\EF08-Database Migration.csprojResolveAssemblyReference.cache
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\obj\Debug\EF08-Database Migration.exe
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\obj\Debug\EF08-Database Migration.pdb
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\obj\Debug\EF08_Database_Migration.Migrations.AddAddressMigration.resources
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF08-Database Migration\obj\Debug\EF08-Database Migration.csproj.GenerateResource.Cache

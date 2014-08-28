@@ -1,0 +1,6 @@
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\bin\Debug\Linq09-Expressions.exe.config
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\bin\Debug\Linq09-Expressions.exe
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\bin\Debug\Linq09-Expressions.pdb
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\obj\Debug\Linq09-Expressions.csprojResolveAssemblyReference.cache
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\obj\Debug\Linq09-Expressions.exe
+M:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq09-Expressions\obj\Debug\Linq09-Expressions.pdb

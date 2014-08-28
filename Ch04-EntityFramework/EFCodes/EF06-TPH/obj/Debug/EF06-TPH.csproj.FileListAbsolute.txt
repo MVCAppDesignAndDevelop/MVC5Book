@@ -1,0 +1,10 @@
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\obj\Debug\EF06-TPH.csprojResolveAssemblyReference.cache
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EF06-TPH.exe.config
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EF06-TPH.exe
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EF06-TPH.pdb
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EntityFramework.dll
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EntityFramework.SqlServer.dll
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EntityFramework.xml
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\bin\Debug\EntityFramework.SqlServer.xml
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\obj\Debug\EF06-TPH.exe
+D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF06-TPH\obj\Debug\EF06-TPH.pdb

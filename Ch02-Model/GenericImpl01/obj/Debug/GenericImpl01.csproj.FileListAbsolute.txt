@@ -1,0 +1,5 @@
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\obj\Debug\GenericImpl01.csprojResolveAssemblyReference.cache
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\bin\Debug\GenericImpl01.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\bin\Debug\GenericImpl01.pdb
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\obj\Debug\GenericImpl01.exe
+F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch02-Codes\GenericImpl01\obj\Debug\GenericImpl01.pdb
