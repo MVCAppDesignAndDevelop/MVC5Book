@@ -1,0 +1,20 @@
+﻿@{
+    ViewBag.Title = "PersonModelBinding";
+}
+
+<h2>PersonModelBinding</h2>
+
+<div>
+    @using (Html.BeginForm())
+    {
+        <p>
+            姓名： <input type="text" name="name" /><br />
+            年紀： <input type="text" name="age" />
+            <input type="submit" value="送出" />
+        </p>
+    }
+</div>
+<p>
+    Your Name：@Model.Name <br />
+    Your Age：@Model.Age
+</p>

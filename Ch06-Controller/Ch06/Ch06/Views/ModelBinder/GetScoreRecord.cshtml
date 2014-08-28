@@ -1,0 +1,28 @@
+﻿@{
+    ViewBag.Title = "GetScoreRecord";
+}
+
+<h2>GetScoreRecord</h2>
+<div>
+    @using (Html.BeginForm())
+    {
+        <textarea name="scores" id="scores" style="width: 250px; height: 80px;"></textarea>
+        <input type="submit" value="確定" />
+        <ul>
+            @Html.Raw(ViewBag.Result)
+        </ul>
+    }
+</div>
+
+@section scripts
+{
+    <script>
+        $(function () {
+            var scores = [
+                { UserId: "Bruce", Score: 9527 },
+                { UserId: "Sherry", Score: 8888 }
+            ];
+            $("#scores").val(JSON.stringify(scores));
+        });
+    </script>
+}

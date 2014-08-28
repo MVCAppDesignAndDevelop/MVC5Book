@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>GetTime</title>
+</head>
+<body>
+    <div>
+        時間：@ViewBag.Time 
+    </div>
+    <div>
+        ChildAction時間：@{Html.RenderAction("GetCacheTimeForChildAction");}
+    </div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+﻿@using Ch06.Resouces
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        AppMessage：@ViewBag.AppMessage
+        <br />
+        CusMessage：@ViewBag.CusMessage
+    </div>
+    @* 在View存取 *@
+    <div>
+        @Resources.ModelResource.ProductName
+        <br/>
+        @ProductResource.ProductName
+    </div>
+</body>
+</html>

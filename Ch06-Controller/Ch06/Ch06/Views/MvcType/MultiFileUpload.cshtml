@@ -1,0 +1,45 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>MultiFileUpload</title>
+</head>
+<body>
+    <div>
+        <div>
+            <span>@Html.Raw(TempData["Message"])</span>
+            @using (Html.BeginForm("MultiFileUpload",
+                "MvcType",
+                FormMethod.Post,
+                new { enctype = "multipart/form-data" }))
+            {
+                @Html.ValidationSummary(false)
+                <div class="uploadfiles">
+                    <p>
+                        <input type="file" name="files" />
+                    </p>
+                </div>
+                <div>
+                    <button id="addfile">增加檔案</button>
+                    &nbsp; &nbsp;
+                    <input type="submit" value="上傳" />
+                </div>
+            }
+        </div>
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        $(function() {
+            $('button').on('click', function () {
+                $('.uploadfiles').append("<p><input type='file' name='files'/></p>");
+                event.preventDefault();
+            });
+        })
+    </script>
+</body>
+</html>

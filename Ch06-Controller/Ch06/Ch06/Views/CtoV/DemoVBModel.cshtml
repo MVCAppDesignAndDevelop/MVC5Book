@@ -1,0 +1,10 @@
+﻿@{
+    ViewBag.Title = "DemoVBModel";
+}
+<h2>DemoVBModel</h2>
+<ul>
+    @foreach (var item in ViewData["products"] as List<Product>)
+    {
+        <li>@item.ProductName @* 轉型後有IntelliSense *@</li>
+    }
+</ul>

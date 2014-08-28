@@ -1,0 +1,27 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>DemoPartialView</title>
+</head>
+<body>
+    <div id="now"> 
+    </div>
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script>
+        $(function() {
+            $.get("/MvcType/GetTime",
+                null,
+                function(data) {
+                    $('#now').html(data);
+                });
+        });
+    </script>
+</body>
+</html>

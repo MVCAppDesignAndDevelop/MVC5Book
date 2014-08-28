@@ -1,0 +1,28 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UploadToDB</title>
+</head>
+<body>
+    <div>
+        <div>
+            <p>@Html.Raw(TempData["Message"])</p>
+            @using (Html.BeginForm("UploadToDB",
+                "MvcType",
+                FormMethod.Post,
+                new { enctype = "multipart/form-data" }))
+            {
+                <input type="file" id="file" name="file" />
+                <br />
+                <input type="submit" value="上傳" />
+            }
+        </div>
+    </div>
+</body>
+</html>

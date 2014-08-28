@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "DemoViewDataModel";
+}
+
+<h2>DemoViewDataModel</h2>
+
+<ul>
+    @foreach (var item in Model)
+    {
+        <li>@item.ProductName</li>
+    }
+</ul>

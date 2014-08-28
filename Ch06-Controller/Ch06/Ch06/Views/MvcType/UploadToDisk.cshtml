@@ -1,0 +1,27 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>UploadToDisk</title>
+</head>
+<body>
+    <div>
+        <span>@Html.Raw(TempData["Message"])</span>
+        @using (Html.BeginForm("UploadToDisk",
+            "MvcType",
+            FormMethod.Post,
+            new { enctype = "multipart/form-data" }))
+        {
+            @Html.ValidationSummary(false)
+            <input type="file" id="file" name="file" />
+            <br/>
+            <input type="submit" value="上傳" />
+        }
+    </div>
+</body>
+</html>

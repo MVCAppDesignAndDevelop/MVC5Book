@@ -1,0 +1,15 @@
+﻿
+@{
+    ViewBag.Title = "DemoInput";
+}
+
+<h2>DemoInput</h2>
+
+<div>
+    @using (Html.BeginForm("CheckInput", "CtoV"))
+    {
+        <input type="text" name="name" /><br />
+        <span style="color:red">@TempData["Error"]</span><br />
+        <input type="submit" value="送出" />
+    }
+</div>

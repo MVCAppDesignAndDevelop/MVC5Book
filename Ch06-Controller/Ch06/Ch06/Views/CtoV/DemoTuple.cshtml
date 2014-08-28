@@ -1,0 +1,35 @@
+﻿@model Tuple<List<Product>, List<Category>, List<Supplier>>
+@{
+    ViewBag.Title = "DemoTuple";
+}
+<h2>DemoTuple</h2>
+<h3>Product Name</h3>
+<ul>
+    @* Item1 is List<Product>*@
+    @foreach (var item in Model.Item1)
+    {
+        <li>
+            @item.ProductName
+        </li>
+    }
+</ul>
+<h3>Category Name</h3>
+<ul>
+    @* Item2 is List<Category>*@
+    @foreach (var item in Model.Item2)
+    {
+        <li>
+            @item.CategoryName
+        </li>
+    }
+</ul>
+<h3>Supplier Name</h3>
+<ul>
+    @* Item3 is List<Supplier> *@
+    @foreach (var item in Model.Item3)
+    {
+        <li>
+            @item.CompanyName
+        </li>
+    }
+</ul>

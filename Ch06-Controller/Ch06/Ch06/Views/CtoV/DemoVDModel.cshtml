@@ -1,0 +1,17 @@
+﻿@{
+    ViewBag.Title = "DemoVDModel";
+}
+<h2>DemoVDModel</h2>
+@* 轉型後有IntelliSense *@
+@*<ul>
+    @foreach (var item in ViewData["products"] as List<Ch06.Models.Product>)
+    {
+        <li>@item.ProductName </li>
+    }
+</ul>*@
+<ul>
+    @foreach (var item in ViewData["products"] as List<Product>)
+    {
+        <li>@item.ProductName @* 轉型後有IntelliSense *@</li>
+    }
+</ul>
