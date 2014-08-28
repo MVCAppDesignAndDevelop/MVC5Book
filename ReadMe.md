@@ -95,5 +95,5 @@ View在MVC應用程式中扮演了為應用程式擦脂抹粉的角色，所以�
 - 第十六章「CMS範例實戰」
 本章將以實例方式串連本章前面所有的章節，實作一個CMS範例應用程式。
 
-完整目錄與簡介：基峰[ASP.NET MVC 5 網站開發美學](http://books.gotop.com.tw/a_ACL041300 "ASP.NET MVC 5 網站開發美學")。
+完整目錄與簡介：碁峰[ASP.NET MVC 5 網站開發美學](http://books.gotop.com.tw/a_ACL041300 "ASP.NET MVC 5 網站開發美學")。
 
