@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubAndMockSample", "StubAndMockSample\StubAndMockSample.csproj", "{AF94BC1F-E03C-4988-9A89-D7C18A437EED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubAndMockSampleTests", "StubAndMockSampleTests\StubAndMockSampleTests.csproj", "{46E8C985-4F9D-4985-AAEF-F44FA54270CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF94BC1F-E03C-4988-9A89-D7C18A437EED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF94BC1F-E03C-4988-9A89-D7C18A437EED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF94BC1F-E03C-4988-9A89-D7C18A437EED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF94BC1F-E03C-4988-9A89-D7C18A437EED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46E8C985-4F9D-4985-AAEF-F44FA54270CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46E8C985-4F9D-4985-AAEF-F44FA54270CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46E8C985-4F9D-4985-AAEF-F44FA54270CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46E8C985-4F9D-4985-AAEF-F44FA54270CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

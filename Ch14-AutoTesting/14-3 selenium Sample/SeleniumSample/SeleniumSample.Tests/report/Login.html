@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"[]>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Login</title>
+    <link rel="stylesheet" href="master.css" type="text/css" />
+    <link rel="stylesheet" href="print.css" type="text/css" media="print" />
+    <script src="scripts/jquery.js" type="text/javascript"></script>
+    <script src="scripts/scripts.js" type="text/javascript"></script>
+    <script type="text/javascript">
+$(document).ready(function() {
+  initializeToc();
+});
+</script>
+    <!-- We are using Font Awesome - http://fortawesome.github.com/Font-Awesome - licensed under CC BY 3.0 -->
+  </head>
+  <body>
+    <div id="container">
+      <div id="top" />
+      <div id="toc">
+        <p class="tocCollapser" title="Collapse Table of Content">«</p>
+        <ul class="features">
+          <li class="file" id="root">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="file">
+            <span class="current">Login</span>
+          </li>
+        </ul>
+      </div>
+      <div id="feature">
+        <h1>Login</h1>
+        <div class="description">
+          <p>In order to 避免非法使用者使用系統
+As a 系統管理者
+I want to be 檢查帳號密碼是否合法</p>
+        </div>
+        <ul id="scenarios">
+          <li class="scenario">
+            <div class="scenario-heading">
+              <h2>登入失敗，顯示錯誤訊息</h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>Login的頁面</li>
+                <li class="step">
+                  <span class="keyword">When </span>在帳號輸入"joey"</li>
+                <li class="step">
+                  <span class="keyword">And </span>在密碼輸入"abc"</li>
+                <li class="step">
+                  <span class="keyword">And </span>按下登入</li>
+                <li class="step">
+                  <span class="keyword">Then </span>顯示"帳號或密碼有誤"</li>
+              </ul>
+            </div>
+          </li>
+          <li class="scenario">
+            <div class="scenario-heading">
+              <h2>登入成功，導到首頁</h2>
+            </div>
+            <div class="steps">
+              <ul>
+                <li class="step">
+                  <span class="keyword">Given </span>Login的頁面</li>
+                <li class="step">
+                  <span class="keyword">When </span>在帳號輸入"joey"</li>
+                <li class="step">
+                  <span class="keyword">And </span>在密碼輸入"1234"</li>
+                <li class="step">
+                  <span class="keyword">And </span>按下登入</li>
+                <li class="step">
+                  <span class="keyword">Then </span>導到首頁</li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div id="footer">
+        <p>Pickled on: 18 五月 2014 03:02:47</p>
+        <p>Produced by Pickles, version 0.9.86.0</p>
+      </div>
+    </div>
+  </body>
+</html>

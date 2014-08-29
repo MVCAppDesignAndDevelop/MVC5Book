@@ -1,0 +1,46 @@
+﻿@model CalculateShippingFee.Models.ProductModels
+
+@{
+    ViewBag.Title = "計算運費";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Index</h2>
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>計算運費</legend>
+        <ol>
+            <li>
+                @Html.LabelFor(m => m.Name)
+                @Html.EditorFor(m => m.Name)
+                @Html.ValidationMessageFor(m => m.Name)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Length)
+                @Html.EditorFor(m => m.Length)
+                @Html.ValidationMessageFor(m => m.Length)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Width)
+                @Html.EditorFor(m => m.Width)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Height)
+                @Html.EditorFor(m => m.Height)
+            </li>
+            <li>
+                @Html.LabelFor(m => m.Weight)
+                @Html.EditorFor(m => m.Weight)
+            </li>
+            <li>
+                貨運商 @Html.DropDownList("Company")
+            </li>
+            @if (ViewBag.Fee != null)
+            {
+                <li>運費: <span id="fee"> @ViewBag.Fee </span></li>
+            }
+        </ol>
+        <input type="submit" value="計算運費" />
+    </fieldset>
+}
