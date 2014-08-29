@@ -1,0 +1,80 @@
+﻿@model CMS.Models.IndexViewModel
+@{
+    ViewBag.Title = "管理";
+}
+
+<h2>@ViewBag.Title.</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+    <h4>變更帳戶設定</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>密碼:</dt>
+        <dd>
+            [
+            @if (Model.HasPassword)
+            {
+                @Html.ActionLink("變更密碼", "ChangePassword")
+            }
+            else
+            {
+                @Html.ActionLink("建立", "SetPassword")
+            }
+            ]
+        </dd>
+        <dt>外部登入:</dt>
+        <dd>
+            @Model.Logins.Count [
+            @Html.ActionLink("管理", "ManageLogins") ]
+        </dd>
+        @*
+            電話號碼可以用做雙因素驗證系統中驗證的第二個因素。
+             
+             請參閱<a href="http://go.microsoft.com/fwlink/?LinkId=313242">本文章</a>，
+                以取得如何設定此 ASP.NET 應用程式支援使用 SMS 進行雙因素驗證的詳細資料。
+             
+             設定雙因素驗證之後，請取消註解下列區塊
+        *@
+        @*  
+            <dt>電話號碼:</dt>
+            <dd>
+                @(Model.PhoneNumber ?? "None") [
+                @if (Model.PhoneNumber != null)
+                {
+                    @Html.ActionLink("變更", "AddPhoneNumber")
+                    @: &nbsp;|&nbsp;
+                    @Html.ActionLink("移除", "RemovePhoneNumber")
+                }
+                else
+                {
+                    @Html.ActionLink("新增", "AddPhoneNumber")
+                }
+                ]
+            </dd>
+        *@
+        <dt>雙因素驗證:</dt>
+        <dd>
+            <p>
+                未設定雙因素驗證提供者。請參閱<a href="http://go.microsoft.com/fwlink/?LinkId=313242">本文章</a>，
+                以取得設定此 ASP.NET 應用程式支援雙因素驗證的詳細資料。
+            </p>
+            @*@if (Model.TwoFactor)
+                {
+
+                    <form method="post" action="/Manage/DisableTwoFactorAuthentication">
+                        已啟用
+                        <input type="submit" value="停用" class="btn btn-link" />
+                    </form>
+                }
+                else
+                {
+
+                    <form method="post" action="/Manage/EnableTwoFactorAuthentication">
+                        已停用
+                        <input type="submit" value="啟用" class="btn btn-link" />
+                    </form>
+                }*@
+        </dd>
+    </dl>
+</div>
