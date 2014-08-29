@@ -1,5 +1,0 @@
-F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq07-LINQStatements\bin\Debug\Linq07-LINQStatements.exe
-F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq07-LINQStatements\bin\Debug\Linq07-LINQStatements.pdb
-F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq07-LINQStatements\obj\Debug\Linq07-LINQStatements.csprojResolveAssemblyReference.cache
-F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq07-LINQStatements\obj\Debug\Linq07-LINQStatements.exe
-F:\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch03-Codes\Linq07-LINQStatements\obj\Debug\Linq07-LINQStatements.pdb

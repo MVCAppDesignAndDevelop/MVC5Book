@@ -1,6 +1,0 @@
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\bin\Debug\EF02-ModelFirst.exe.config
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\bin\Debug\EF02-ModelFirst.exe
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\bin\Debug\EF02-ModelFirst.pdb
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\obj\Debug\EF02-ModelFirst.csprojResolveAssemblyReference.cache
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\obj\Debug\EF02-ModelFirst.exe
-D:\NAS DataBackup\著作資料夾\ASP.NET MVC 5.0 開發美學\Ch04-Codes\EFCodes\EF02-ModelFirst\obj\Debug\EF02-ModelFirst.pdb
