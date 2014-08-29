@@ -1,0 +1,26 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Login</h2>
+@using (Html.BeginForm())
+{
+    <fieldset>
+        <legend>登入</legend>
+        <ol>
+            <li>
+                帳號：@Html.TextBox("id")
+            </li>
+            <li>
+                密碼：@Html.Password("password")
+            </li>
+
+            @if (ViewBag.Message != null)
+            {
+                <div id="message" style="color: red">@ViewBag.Message </div>
+            }
+        </ol>
+        <input type="submit" value="登入" />
+    </fieldset>
+}
