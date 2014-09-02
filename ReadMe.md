@@ -10,6 +10,7 @@
 - 誠品訂購：[http://www.eslite.com/product.aspx?pgid=1001113692352979](http://www.eslite.com/product.aspx?pgid=1001113692352979 "ASP.NET MVC 5 網站開發美學")
 - 三民訂購：[http://www.m.sanmin.com.tw/Product/Index/004663614](http://www.m.sanmin.com.tw/Product/Index/004663614 "ASP.NET MVC 5 網站開發美學")
 - 讀冊生活訂購：[http://www.taaze.tw/sing.html?pid=11100715634](http://www.taaze.tw/sing.html?pid=11100715634 "ASP.NET MVC 5 網站開發美學")
+- PCHome：[http://24h.pchome.com.tw/books/prod/DJAA2V-A9005DKGP](http://24h.pchome.com.tw/books/prod/DJAA2V-A9005DKGP "ASP.NET MVC 5 網站開發美學")
 
 
 ## 內容特色 ##
