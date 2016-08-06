@@ -78,6 +78,7 @@ namespace EF06_TPH
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Product>()
+                .ToTable("Products") // 解決因 EF Database Creation 機制導致產生兩個表格的問題。
                 .Map<Camera>(m =>
                     m.MapInheritedProperties()
                     .ToTable("Products")
